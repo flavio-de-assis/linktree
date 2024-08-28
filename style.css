@@ -1,7 +1,14 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "Montserrat", sans-serif;
+    src: url(fonte/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+    font-weight: bolder;
+}
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: rgb(0, 1, 2);
     color: #ffff;
     height: 100vh;
@@ -9,10 +16,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('imagens/1.jpeg');
 }
+
+h1 {
+    padding-top: 10px;
+    margin: 0px;
+}
+
 
 .container {
     background-color: #1e1e1e;
+    box-shadow: 1px 8px 8px 8px #1e1e1e ;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
@@ -21,16 +36,23 @@ body {
 }
 
 
+
+
 .profile {
     width: 100px;
     height: 100px;
     border-radius: 100px;
     object-fit: cover;
-    border: 3px solid white;
+    border: 3px solid rgba(255, 255, 255, 0.301);
 }
 
 .subtitle {
     margin-top: 25px;
+}
+
+.sb {
+    font-size: 0.8em;
+    
 }
 
 .link {
@@ -49,6 +71,17 @@ body {
 
 }
 
-.insta {
+.link:hover {
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+
+.pt {
+    width: 50px;
+    height: 50px;
     padding-left: 8px;
 }
+
+
+
+
