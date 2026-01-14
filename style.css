@@ -110,3 +110,12 @@ h2 {
     transform: none;
     background-color: #1e1e1e;
 }
+
+/* ===== RESET DE CORES DE LINKS (visited, hover, active) ===== */
+a,
+a:visited,
+a:active,
+a:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+}
