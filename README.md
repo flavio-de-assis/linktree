@@ -1,4 +1,4 @@
-# 🔗 Linktree Profissional — Flávio De Assis
+# 🔗 Flávio De Assis
 
 Linktree pessoal desenvolvido para centralizar meus principais canais profissionais, com foco em **Engenharia de Dados**.
 
