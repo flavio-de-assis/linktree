@@ -29,7 +29,7 @@ body {
     background-color: rgba(18, 18, 18, 0.95);
     border-radius: 20px;
     padding: 28px 22px;
-    width: 360px;
+    width: 720px;
     max-width: 92%;
     text-align: center;
 
@@ -143,4 +143,11 @@ a:active,
 a:hover {
     color: #ffffff;
     text-decoration: none;
+}
+
+/* ===== GRID DE PROJETOS ===== */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
 }
